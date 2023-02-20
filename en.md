@@ -169,6 +169,11 @@ This is later used to calculate your mouth shape when you talk.
 The "Neutral" vowel is when you are silent. Calibrate this with your mouth
 closed and a neutral face.
 
+## Recording
+You can record shapekeys and bones separately or together by checking the boxes. This will insert a new keyframe each time the model updates. In order to record it you press play on the timeline. If there already is a recording the model may stutter as it can not decide which pose to show. As long as your framerate for the tracker is greater than the framerate of the project, all keyframes should be overwritten by new ones and stuttering should not happen.
+
+You can prevent the tracker from applying any data by using the disable checkboxes. Lets say you have recorded motion and only want to record the shapekeys, you can check "Disable bones" and it will not change any bone positions.
+
 ## Reset pose
 
 This button will re-center your model to the initial position. If your model
