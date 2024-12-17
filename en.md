@@ -49,6 +49,8 @@ vowel and blinking blendshapes if OpenSeeFace is used, or ARKit blendshapes if
 VTube Studio tracking is used. For ARKit blendshapes the naming should follow
 the standard. <https://arkit-face-blendshapes.com/>
 
+If there are no blendshapes in the mesh, the program will fail with a "bone missing" error.
+
 OpenSeeFace blendshape list. One of each should exist. Any of the names on the
 same line can be used for the blendshape.
 
