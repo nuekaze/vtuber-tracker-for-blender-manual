@@ -49,21 +49,19 @@ vowel and blinking blendshapes if OpenSeeFace is used, or ARKit blendshapes if
 VTube Studio tracking is used. For ARKit blendshapes the naming should follow
 the standard. <https://arkit-face-blendshapes.com/>
 
-If there are no blendshapes in the mesh, the program will fail with a "bone missing" error.
-
 OpenSeeFace blendshape list. One of each should exist. Any of the names on the
 same line can be used for the blendshape.
 
-  * A, a, あ
-  * I, i, い
-  * U, u, う
-  * E, e, え
-  * O, o, お
+  * a, あ
+  * i, い
+  * u, う
+  * e, え
+  * o, お
   * blink_left, ウィンク
   * blink_right, ウインク右
 
 If your model is not doing a certain movement, for example not blinking, the
-name of the blendshape may be wrong. It must match for it to work.
+name of the blendshape may be wrong. It must match for it to work. Capitalization needs to be correct as well.
 
 Regarding performance, it is not recommended to have your entire model as one
 single mesh. While it is possible to make that work it may use a lot of
